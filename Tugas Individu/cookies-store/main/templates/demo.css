@@ -1,0 +1,15 @@
+.card{
+    border: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+}
+
+.card h2 {
+    font-size: 1.5em;
+    color:aqua;
+}
+
+.card p {
+    color: yellow;
+}

@@ -8,3 +8,8 @@ class Product(models.Model):
     description = models.TextField()
     price = models.IntegerField()
     user = models.ForeignKey(User, on_delete=models.CASCADE)
+
+class Person(models.Model):
+    name = models.CharField(max_length=255)
+    age = models.IntegerField()
+    ishappy = models.BooleanField()
